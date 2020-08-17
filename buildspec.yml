@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+  pre_build:
+    commands:
+      - echo "Node.js version"
+      - node --version
+  build:
+    commands:
+      - npm build
+      - npm test

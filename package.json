@@ -1,0 +1,27 @@
+{
+  "name": "aws-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plygrynd-jynkyrd/aws-build.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plygrynd-jynkyrd/aws-build/issues"
+  },
+  "homepage": "https://github.com/plygrynd-jynkyrd/aws-build#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  }
+}
